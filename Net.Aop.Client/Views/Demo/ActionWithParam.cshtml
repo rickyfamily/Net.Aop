@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "ActionWithParam";
+}
+
+<h1>Demo ActionWithParam</h1>
+
+@section scripts{
+<script>
+    $(function(){          
+         $.ajax({
+                url: "GetResource",
+                type: "get",
+                data: { },
+                success: function (data) { 
+                    alert(JSON.stringify(data));
+                },
+                datatype: "json" });
+            });
+</script>
+}
+
