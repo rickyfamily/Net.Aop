@@ -87,21 +87,21 @@ To summarize, AOP can easily extend functions, such as logging, exception handli
 
 **Development environment setup manual:** 
 
-1. Microsoft Visual Studio Professional 2022  2022 Version 17.8.3
+1. Microsoft Visual Studio Professional 2022 Version 17.8.3
 
 **Tech stack selections with justifications:** 
 
-1. NETCore 6
+1. NETCore
 
 	As basic framework to build the application.
 
-2. AspNetCore 6
+2. AspNetCore
 
 	As basic framework to build Web Api site, http://localhost:5000.
 
 3. Autofac
 
-	As IOC container to build objects according to configuration named autofac.json.
+	As IOC container to implement AOP in business level.
 
 4. Newtonsoft.Json
 
