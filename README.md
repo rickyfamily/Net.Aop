@@ -43,7 +43,7 @@ Business level, which is used handle the specific business, such as CRUD of a bu
 
 ![Middle workflow](/Images/middleware_workflow.png)
 
-![built-in middleware](/Images/bultin_middleware.png)
+![built-in middleware](/Images/builtin_middleware.png)
 
 **Filter** in .Net allows code to run before or after specific stages in the request processing pipeline.
 
@@ -67,7 +67,7 @@ It's used to format result.
 
 **5. Exception filter**
 
-It's used to apply global policies to unhandled exceptions. The exceptions in the following cases can be catched by it,
+It's used to apply global policies to unhandled exceptions. The exceptions in the following cases can be cached by it,
 
 (1) Action has unhandled exception
 
@@ -75,7 +75,7 @@ It's used to apply global policies to unhandled exceptions. The exceptions in th
 
 (3) The constructor in controller has unhandled exception
 
-The exceptions in the following cases can't be catched by exception filter. But we can use the Middleware to catch them.
+The exceptions in the following cases can't be cached by exception filter. But we can use the Middleware to catch them.
 
 (4) View binding has unhandled exception
 
